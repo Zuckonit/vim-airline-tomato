@@ -21,7 +21,7 @@ function! tomato#get() abort
         let n = readfile(s:tomato_file, '', 2)[0] + number
         if period > s:interval
             let s:remind = s:restinfo
-        else
+        elseif period < s:interval
             call writefile([n], s:tomato_file)
         endif
     else
@@ -31,7 +31,5 @@ function! tomato#get() abort
 endfunction
 
 function! tomato#reset() abort
-    if filereadable(s:file):
-        call writefile([1], s:file)
-    endif
+    call writefile([1], s:tomato_file)
 endfunction
