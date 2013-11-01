@@ -1,6 +1,11 @@
 vim-airline-tomato
 ==================
 
+##Required
+* [Airline](https://github.com/bling/vim-airline): This is a extension of airline (like powerline, but more fast and KISS)
+* [powerline-font](https://github.com/Lokaltog/powerline-fonts): if you use chinese font, you may need install powerline font
+  
+  
 ```
 tomato.txt* vim-airline-tomato
 
@@ -32,4 +37,4 @@ CUSTOMIZE                                                    tomato-customize*
     let g:tomato#remind = ":)"
 ==============================================================================
 vim:tw=78:ts=8:ft=help:norl:noet:fen:fdl=0:
-```
+`
