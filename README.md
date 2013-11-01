@@ -32,3 +32,6 @@ This is vim-airline extension to display  Pomodoro Technique
 ==============================================================================
 vim:tw=78:ts=8:ft=help:norl:noet:fen:fdl=0:
 `
+  
+##License
+MIT
