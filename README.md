@@ -24,11 +24,11 @@ This is vim-airline extension to display  Pomodoro Technique
 
   If you wat to change working text:
 >
-    let g:tomato#remind = ":("
+    let g:tomato#remind = "☻"
 
   If you wat to change rest text:
 >
-    let g:tomato#remind = ":)"
+    let g:tomato#restinfo = "☺"
 ==============================================================================
 vim:tw=78:ts=8:ft=help:norl:noet:fen:fdl=0:
 `
