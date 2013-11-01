@@ -21,8 +21,10 @@ function! tomato#get() abort
         let n = readfile(s:tomato_file, '', 2)[0] + number
         if period > s:interval
             let s:remind = s:restinfo
-        elseif period < s:interval
-            call writefile([n], s:tomato_file)
+        else
+            if number > 0
+                call writefile([n], s:tomato_file)
+            endif
         endif
     else
         call writefile([1], s:tomato_file)
