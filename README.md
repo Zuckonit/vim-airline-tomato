@@ -1,21 +1,15 @@
 vim-airline-tomato
 ==================
-
+  
+##INTRODUCTION 
+This is vim-airline extension to display  Pomodoro Technique
+  
 ##Required
 * [Airline](https://github.com/bling/vim-airline): This is a extension of airline (like powerline, but more fast and KISS)
 * [powerline-font](https://github.com/Lokaltog/powerline-fonts): if you use chinese font, you may need install powerline font
-  
-  
-```
-tomato.txt* vim-airline-tomato
-
-==============================================================================
-INTRODUCTION                                              tomato-introduction*
-
-This is vim-airline extension to display tomato schedule management.
-==============================================================================
-
-CUSTOMIZE                                                    tomato-customize*
+   
+#Configuration
+`
   If you want to change the working time:
 >
     let g:tomato#interval = 60 * 60
