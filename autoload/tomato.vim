@@ -10,9 +10,9 @@ if s:lang == "chinese"
     let s:restinfo = "休息下"
 endif
 let s:remind = exists('g:tomato#remind') ? g:tomato#remind : s:remind
+let s:restinfo = exists('g:tomato#restinfo') ? g:tomato#restinfo : s:restinfo
 let s:total = s:rest_time + s:interval
 let s:tomato_file = expand("~/.tomato-vim")
-"echo s:total, getftime(s:tomato_file)
 function! tomato#get() abort
     let n = 1
     if filereadable(s:tomato_file)
