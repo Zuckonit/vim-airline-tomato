@@ -7,9 +7,10 @@ This is vim-airline extension to display  Pomodoro Technique
 ##Required
 * [Airline](https://github.com/bling/vim-airline): This is a extension of airline (like powerline, but more fast and KISS)
 * [powerline-font](https://github.com/Lokaltog/powerline-fonts): if you use chinese font, you may need install powerline font
+* [pomicons] (https://github.com/gabrielelana/pomicons): This is a font with 8 symbols to talk about the "Pomodoro Technique"® (You can use these special symbol to change the configuration, thanks Lana for providing this)
    
 #Configuration
-`
+```
   If you want to change the working time:
 >
     let g:tomato#interval = 60 * 60
@@ -29,9 +30,14 @@ This is vim-airline extension to display  Pomodoro Technique
   If you wat to change rest text:
 >
     let g:tomato#restinfo = "☺"
+``` 
+
+#Thanks
+Gabriele Lana <gabriele.lana@gmail.com> (provide awesome fonts)
+  
 ==============================================================================
 vim:tw=78:ts=8:ft=help:norl:noet:fen:fdl=0:
-`
+
   
 ##License
 MIT
