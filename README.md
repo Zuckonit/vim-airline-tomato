@@ -1,15 +1,15 @@
 vim-airline-tomato
 ==================
   
-##INTRODUCTION 
-This is vim-airline extension to display  Pomodoro Technique
+##Introduction
+This is vim-airline extension to display [Pomodoro Technique](http://en.wikipedia.org/wiki/Pomodoro_Technique)
   
 ##Required
 * [Airline](https://github.com/bling/vim-airline): This is a extension of airline (like powerline, but more fast and KISS)
 * [powerline-font](https://github.com/Lokaltog/powerline-fonts): if you use chinese font, you may need install powerline font
 * [pomicons] (https://github.com/gabrielelana/pomicons): This is a font with 8 symbols to talk about the "Pomodoro Technique"® (You can use these special symbol to change the configuration, thanks Lana for providing this)
    
-#Configuration
+##Configuration
 * If you want to change the working time:
 > let g:tomato#interval = 60 * 60
   
@@ -26,7 +26,7 @@ This is vim-airline extension to display  Pomodoro Technique
 > let g:tomato#restinfo = "☺" (here you can use the pomicons, usuage can be found at [pomicons] (https://github.com/gabrielelana/pomicons))
 
 
-#Thanks
+##Thanks
 > Gabriele Lana <gabriele.lana@gmail.com> (provide awesome fonts)
   
 ==============================================================================
