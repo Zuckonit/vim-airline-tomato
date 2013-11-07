@@ -10,30 +10,24 @@ This is vim-airline extension to display  Pomodoro Technique
 * [pomicons] (https://github.com/gabrielelana/pomicons): This is a font with 8 symbols to talk about the "Pomodoro Technique"® (You can use these special symbol to change the configuration, thanks Lana for providing this)
    
 #Configuration
-```
-  If you want to change the working time:
->
-    let g:tomato#interval = 60 * 60
-<
-  If you wat to change rest time:
->
-    let g:tomato#rest_time = 20 * 60
-<
-  If you wat to change language(english or chinese):
->
-    let g:tomato#lang = 'chinese'
+* If you want to change the working time:
+> let g:tomato#interval = 60 * 60
+  
+* If you wat to change rest time:
+> let g:tomato#rest_time = 20 * 60
+  
+* If you want to change language(english or chinese):
+> let g:tomato#lang = 'chinese'
+  
+* If you want to change working text:
+> let g:tomato#remind = "☻"  (here you can use the pomicons, usuage can be found at [pomicons] (https://github.com/gabrielelana/pomicons))
+  
+* If you want to change rest text:
+> let g:tomato#restinfo = "☺" (here you can use the pomicons, usuage can be found at [pomicons] (https://github.com/gabrielelana/pomicons))
 
-  If you wat to change working text:
->
-    let g:tomato#remind = "☻"
-
-  If you wat to change rest text:
->
-    let g:tomato#restinfo = "☺"
-``` 
 
 #Thanks
-Gabriele Lana <gabriele.lana@gmail.com> (provide awesome fonts)
+> Gabriele Lana <gabriele.lana@gmail.com> (provide awesome fonts)
   
 ==============================================================================
 vim:tw=78:ts=8:ft=help:norl:noet:fen:fdl=0:
