@@ -7,6 +7,8 @@ This is vim-airline extension to display [Pomodoro Technique](http://en.wikipedi
 ##Required
 * [Airline](https://github.com/bling/vim-airline): This is a extension of airline (like powerline, but more fast and KISS)
 * [powerline-font](https://github.com/Lokaltog/powerline-fonts): if you use chinese font, you may need install powerline font
+  
+##Optional
 * [pomicons] (https://github.com/gabrielelana/pomicons): This is a font with 8 symbols to talk about the "Pomodoro Technique"® (You can use these special symbol to change the configuration, thanks Lana for providing this)
    
 ##Configuration
