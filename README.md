@@ -27,6 +27,9 @@ This is vim-airline extension to display [Pomodoro Technique](http://en.wikipedi
 * If you want to change rest text:
 > let g:tomato#restinfo = "☺" (" \ue1f1 " if you are using [awesome-terminal-fonts](https://github.com/gabrielelana/awesome-terminal-fonts))
 
+## Reset (reset the count of tomato to be one)
+> :call tomato#reset()
+
 ## Screenshot
 ![pomicons](https://github.com/gabrielelana/vim-airline-tomato/raw/pomicons-configuration/.screenshot/pomicons.png)
 
