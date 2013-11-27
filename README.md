@@ -28,11 +28,12 @@ This is vim-airline extension to display [Pomodoro Technique](http://en.wikipedi
 > let g:tomato#restinfo = "☺" (" \ue1f1 " if you are using [awesome-terminal-fonts](https://github.com/gabrielelana/awesome-terminal-fonts))
 
 ## Reset (reset the count of tomato to be one)
-* manually reset
-> :call tomato#reset()
-* set auto reset when number over a value
-> let g:tomato#auto_reset_num = 24
-> if the g:tomato#auto_reset_num = -1, then the auto reset will be forbidden, and the default auto_reset_num is 24 * 60 / g:tomato#interval, the total tomato number of one day.
+*  manually reset
+>  :call tomato#reset()
+  
+*  set auto reset when number over a value
+>  let g:tomato#auto_reset_num = 24
+>  if the g:tomato#auto_reset_num = -1, then the auto reset will be forbidden, and the default auto_reset_num is 24 * 60 / g:tomato#interval, the total tomato number of one day.
 
 ## Screenshot
 ![pomicons](https://github.com/gabrielelana/vim-airline-tomato/raw/pomicons-configuration/.screenshot/pomicons.png)
