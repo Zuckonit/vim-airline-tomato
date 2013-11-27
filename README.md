@@ -32,8 +32,9 @@ This is vim-airline extension to display [Pomodoro Technique](http://en.wikipedi
 >  :call tomato#reset()
   
 *  set auto reset when number over a value
->  let g:tomato#auto_reset_num = 24
->  if the g:tomato#auto_reset_num = -1, then the auto reset will be forbidden, and the default auto_reset_num is 24 * 60 / g:tomato#interval, the total tomato number of one day.
+>  let g:tomato#auto_reset_num = 24 (here put the number you wanna set)  
+>  if the g:tomato#auto_reset_num = -1, then the auto reset will be forbidden  
+>  if there is no g:tomato#auto_reset_num in your config, the default auto_reset_num is 24 * 60 / g:tomato#interval, the total tomato numbers of one day.
 
 ## Screenshot
 ![pomicons](https://github.com/gabrielelana/vim-airline-tomato/raw/pomicons-configuration/.screenshot/pomicons.png)
