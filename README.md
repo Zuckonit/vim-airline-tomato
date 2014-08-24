@@ -27,6 +27,14 @@ This is a vim-airline extension for an easy application of the [Pomodoro Techniq
 * If you want to change rest text:
 > let g:tomato#restinfo = "☺" (" \ue1f1 " if you are using [awesome-terminal-fonts](https://github.com/gabrielelana/awesome-terminal-fonts))
 
+* If you want to enable clock:
+> let g:tomato#show_clock = 1
+
+* If you want to show a count down:
+> let g:tomato#show_clock = 1
+> let g:tomato#show_count_down = 1 
+
+
 ## Reset (reset the count of tomato to be one)
 *  manually reset
 >  :call tomato#reset()
