@@ -10,7 +10,7 @@ if s:lang == "chinese"
     let s:remind = "番茄"
     let s:restinfo = "休息下"
 endif
-let s:show_clock = 1
+let s:show_clock = 0
 let s:show_count_down = 0
 
 let s:remind = exists('g:tomato#remind') ? g:tomato#remind : s:remind
