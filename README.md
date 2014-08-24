@@ -31,7 +31,7 @@ This is a vim-airline extension for an easy application of the [Pomodoro Techniq
 > let g:tomato#show_clock = 1
 
 * If you want to show a count down:
-> let g:tomato#show_clock = 1
+> let g:tomato#show_clock = 1  
 > let g:tomato#show_count_down = 1 
 
 
@@ -48,10 +48,13 @@ This is a vim-airline extension for an easy application of the [Pomodoro Techniq
 ![pomicons](https://github.com/gabrielelana/vim-airline-tomato/raw/pomicons-configuration/.screenshot/pomicons.png)
 
 ##Thanks
-> Gabriele Lana <gabriele.lana@gmail.com> (for providing awesome fonts)
-  
+> Gabriele Lana <gabriele.lana@gmail.com> (for providing awesome fonts)  
+> [hellolj](https://github.com/hellolj) (for README gramma check)  
+> [CodeFalling](https://github.com/CodeFalling) (for providing functions clock and countdown)  
+
+##License
+> [MIT](https://raw.githubusercontent.com/Zuckonit/vim-airline-tomato/master/LICENSE)
+
+
 ==============================================================================
 vim:tw=78:ts=8:ft=help:norl:noet:fen:fdl=0:
-  
-##License
-MIT
