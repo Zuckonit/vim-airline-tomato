@@ -56,4 +56,5 @@ function! tomato#get() abort
         endif
     else
         return printf("%s[%d]",s:remindtext,n)
-    endfunction
+    endif
+endfunction
