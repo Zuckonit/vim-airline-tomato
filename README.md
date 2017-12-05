@@ -1,17 +1,17 @@
 vim-airline-tomato
 ==================
   
-##Introduction
+## Introduction
 This is a vim-airline extension for an easy application of the [Pomodoro Technique](http://en.wikipedia.org/wiki/Pomodoro_Technique).
   
-##Required
+## Required
 * [Airline](https://github.com/bling/vim-airline): The extension is based on vim-airline (like powerline, but faster and with a deeper KISS flavor)
 * [powerline-font](https://github.com/Lokaltog/powerline-fonts): if you use wild char's, you may need install powerline font.
 
-##Optional
+## Optional
 * [pomicons](https://github.com/gabrielelana/pomicons): This is a font with 8 symbols to talk about the "Pomodoro Technique"® (You can use these special symbols to change the configuration). You can use one of the [awesome-terminal-fonts](https://github.com/gabrielelana/awesome-terminal-fonts) that contains both powerline and pomicons symbols.
    
-##Configuration
+## Configuration
 * If you want to change the working time:
 > let g:tomato#interval = 60 * 60
   
@@ -47,12 +47,12 @@ This is a vim-airline extension for an easy application of the [Pomodoro Techniq
 ## Screenshot
 ![pomicons](https://github.com/gabrielelana/vim-airline-tomato/raw/pomicons-configuration/.screenshot/pomicons.png)
 
-##Thanks
+## Thanks
 > Gabriele Lana <gabriele.lana@gmail.com> (for providing awesome fonts)  
 > [hellolj](https://github.com/hellolj) (for README gramma check)  
 > [CodeFalling](https://github.com/CodeFalling) (for providing functions clock and countdown)  
 
-##License
+## License
 > [MIT](https://raw.githubusercontent.com/Zuckonit/vim-airline-tomato/master/LICENSE)
 
 
